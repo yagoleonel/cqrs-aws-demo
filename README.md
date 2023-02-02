@@ -53,7 +53,7 @@ The data is replicated from __RDS__ to __DynamoDB__ through  event processing by
 * `cdk diff --profile <aws_profile>`        compare deployed stack with current state
 * `cdk synth --profile <aws_profile>`       emits the synthesized CloudFormation template
  
-_This project is a demo and does not implement security best practices. Do not deploy to a productive AWS account._
+_ATENTION: This project is a demo and does not implement security best practices. Do not deploy to a productive AWS account._
 
 ## _Testing the solution_
 

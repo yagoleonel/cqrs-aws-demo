@@ -3,8 +3,7 @@ const axios = require('axios');
 
 const ACTIONS = ['--create', '--fetch'];
 
-const API_GATEWAY_ENDPOINT = 'https://lsgxsq5pnf.execute-api.eu-central-1.amazonaws.com/prod/post'
-// '<api_gateway_endpoint>';
+const API_GATEWAY_ENDPOINT = '<api_gateway_endpoint>';
 // 'https://lsgxsq5pnf.execute-api.eu-central-1.amazonaws.com/prod/post'
 
 const action = process.argv[2];
