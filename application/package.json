@@ -1,0 +1,19 @@
+{
+  "name": "cqrs-resources-lambdas",
+  "version": "1.0.0",
+  "description": "lambda functions",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.262.0",
+    "aws-sdk": "^2.1306.0",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yago Leonel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.110",
+    "@types/mysql": "^2.15.21"
+  }
+}
